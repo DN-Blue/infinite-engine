@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ING.h" />
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="INGGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphics\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Graphics\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="INGLib.h" />
+    <ClInclude Include="INGWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="INGTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphics\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Graphics\PrimitiveTopologies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphics\MaterialAndShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Graphics\MaterialAndShading</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferInput.h">
+      <Filter>Graphics\MaterialAndShading</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>Graphics\Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthBufferState.h">
+      <Filter>Graphics\DepthBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultResources\Materials\TransformationMaterial.h">
+      <Filter>DefaultResources\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultResources\INGDefaultResources.h">
+      <Filter>DefaultResources</Filter>
+    </ClInclude>
+    <ClInclude Include="INGEntities.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ING.cpp" />
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceContext.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Graphics\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Graphics\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphics\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Graphics\PrimitiveTopologies</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="INGResources.h">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXImporter.cpp">
+      <Filter>Resources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="IModelImporter.cpp">
+      <Filter>Resources\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{343924c9-9d0b-4f84-b1ee-d02b4a3e9666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{a1d14b9c-dd66-4ad3-beed-a5a20027ab6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderSystem">
+      <UniqueIdentifier>{6b155ef0-9a02-454d-bf39-e85ba2bc5299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{cb1ba5a1-88d6-4296-adae-521c16f6a7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Mesh">
+      <UniqueIdentifier>{c69a70aa-ce11-48f6-ae62-7cb3bfa124e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\MaterialAndShading">
+      <UniqueIdentifier>{62c42f44-a5b3-4141-a8ef-d8d7f81c2730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\PrimitiveTopologies">
+      <UniqueIdentifier>{29bf3608-a709-433b-b949-5c4dedcca8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer">
+      <UniqueIdentifier>{33524329-ebcd-4ec8-a800-a720c2588857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{902bf7ef-e144-4cf0-a560-6bd282975a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Texture">
+      <UniqueIdentifier>{b981974f-f82f-4393-a643-eae848bf0de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Model">
+      <UniqueIdentifier>{59f28db0-56ba-4940-8563-15e13163b327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Audio">
+      <UniqueIdentifier>{54d8acf3-5d17-453e-a233-4d12c7c28547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Video">
+      <UniqueIdentifier>{0269c9d8-2210-4e7d-821c-46d628142aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DepthBuffer">
+      <UniqueIdentifier>{55ae454f-eb3a-4611-8bf0-5501d6a38645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefaultResources">
+      <UniqueIdentifier>{3c610863-111b-46dc-882a-ac6475898b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefaultResources\Materials">
+      <UniqueIdentifier>{79723378-b5f8-4085-88a9-38fac660bbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefaultResources\Shaders">
+      <UniqueIdentifier>{c04ccd97-6a81-4788-8e5e-3aa0fa2c7915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefaultResources\Models">
+      <UniqueIdentifier>{16e52bd5-093d-40b8-82b9-d787306cd0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefaultResources\Textures">
+      <UniqueIdentifier>{3a6ad9c7-a62c-4240-bb0a-e543bd432486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{0d7a6f3d-95ea-422e-bb59-beb94886b41c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
